@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Ponomar&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: #eee;
+}
+
+.menu-section{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+/* background: #AD04FF; */
+.container{
+  width: 350px;
+  min-height: 100vh;
+  position: fixed;
+  background: #AD04FF;
+  background: -webkit-linear-gradient(0deg, rgba(173, 4, 255, 1) 0%, rgba(23, 198, 242, 1) 100%);
+  background: -moz-linear-gradient(0deg, rgba(173, 4, 255, 1) 0%, rgba(23, 198, 242, 1) 100%);
+  background: linear-gradient(0deg, rgba(173, 4, 255, 1) 0%, rgba(23, 198, 242, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#AD04FF", endColorstr="#17C6F2", GradientType=0);
+}
+
+.container-Toggle{
+  width: 100px;
+  height: 100vh;
+  position: fixed;
+  background: rgb(173, 4, 255);
+  background: -moz-linear-gradient(0deg, rgba(173, 4, 255, 1) 0%, rgba(242, 23, 108, 1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(173, 4, 255, 1) 0%, rgba(242, 23, 108, 1) 100%);
+  background: linear-gradient(0deg, rgba(173, 4, 255, 1) 0%, rgba(242, 23, 108, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ad04ff", endColorstr="#f2176c", GradientType=1);
+}
+
+.container .menubar{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .menubar .menuBar-header {
+  width: 82%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 35px;
+}
+
+.container .menubar .menuBar-header .title{
+  margin-bottom: 30px;
+}
+
+.container .menubar .menuBar-header .title h1{
+  font-size: 35px;
+  font-family: "Boldonse";
+  color: #eee;
+}
+
+.container .menubar .menuBar-header .close-menu{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+.container .menubar .menuBar-header .close-menu .closing-bar-nav-Option{
+  font-size: 26px !important;
+  /* color: #fff !important; */
+  fill: #fff !important;
+  /* stroke: #fff !important; */
+}
+
+.container-Toggle .menubar .menuBar-header .opening-menu{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.container-Toggle .menubar .menuBar-header .opening-menu .opening-bar-nav-Option{
+  font-size: 26px !important;
+  fill: #fff !important;
+}
+
+.container .menubar .menuBar-option ul{
+  list-style: none;
+}
+
+.container .menubar .menuBar-option ul .option-container {
+  width: 80%;
+  height: 50px;
+  padding: 15px 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: left;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.container .menubar .menuBar-option ul .option-container:hover{
+  background-color: #fff;
+  opacity: 0.7;
+  border: none;
+
+  li a{
+    color: #000000;
+  }
+}
+
+.container .menubar .menuBar-option ul .option-container li a{
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-section{
+  width: 80%;
+  position: absolute;
+  right: 0%;
+  min-height: 100vh;
+  margin-left: 30px;
+  background-color: #fff;
+  margin-top: 10px;
+  border-top-left-radius: 15px;
+}
+
+.main-section .main-option-cos-entry .back-arrow-icon-cos{
+  width: 50px;
+  height: 50px;
+  background-color: #ddd;
+  border: 1px solid #000000;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section .main-option{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.main-section .main-option .mini-navbar{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.main-section .main-option .setting-icon{
+  width: 70px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-section .main-option .setting-icon .settingIcon{
+  font-size: 25px !important;
+  color: #000000 !important;
+}
+
+.main-section .main-option .account-Profile-icon{
+  width: 70px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #000000;
+}
+
+.main-section .main-option .account-Profile-icon .accountProfileIcon{
+  font-size: 22px !important;
+  color: #000000 !important;
+}

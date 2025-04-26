@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.cos-form{
+  width: 90%;
+  height: 85vh;
+  background: #AD04FF;
+  background: -webkit-linear-gradient(90deg, rgba(173, 4, 255, 1) 36%, rgba(23, 198, 242, 1) 100%);
+  background: -moz-linear-gradient(90deg, rgba(173, 4, 255, 1) 36%, rgba(23, 198, 242, 1) 100%);
+  background: linear-gradient(90deg, rgba(173, 4, 255, 1) 36%, rgba(23, 198, 242, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#AD04FF", endColorstr="#17C6F2", GradientType=1);
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.cos-form h1{
+  font-size: 34px;
+  font-weight: bold;
+  color: #000000;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.cos-form form{
+  width: 80%;
+  height: 85%;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.cos-form form .cos-form-content{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.cos-form form .cos-form-content .first-sec,
+.cos-form form .cos-form-content .second-sec,
+.cos-form form .cos-form-content .third-sec{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cos-form form .cos-form-content .first-sec .cos-input-section,
+.cos-form form .cos-form-content .second-sec .cos-input-section,
+.cos-form form .cos-form-content .third-sec .cos-input-section{
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cos-form form .cos-form-content .first-sec .cos-input-section label,
+.cos-form form .cos-form-content .second-sec .cos-input-section label,
+.cos-form form .cos-form-content .third-sec .cos-input-section label{
+  font-family: "Poppins";
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.cos-form form .cos-form-content .first-sec .cos-input-section input,
+.cos-form form .cos-form-content .second-sec .cos-input-section input,
+.cos-form form .cos-form-content .third-sec .cos-input-section input{
+  width: 95%;
+  height: 50px;
+  background: transparent;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Poppins";
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.cos-form form .cos-form-content .first-sec .cos-input-section input::placeholder,
+.cos-form form .cos-form-content .second-sec .cos-input-section input::placeholder,
+.cos-form form .cos-form-content .third-sec .cos-input-section input::placeholder{
+  color: #fff;
+  opacity: 1;
+}
+
+.cos-form form .cos-form-content .first-sec {
+  margin-top: 30px;
+}
+
+.cos-form form .cos-form-content .second-sec {
+  margin-top: 30px;
+}
+
+.cos-form form .cos-form-content .third-sec {
+  margin-top: 30px;
+}
+
+.cos-form form .cos-form-content .last-section{
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.cos-form form .cos-form-content .last-section button {
+  width: 350px;
+  height: 60px;
+  background: rgb(242, 23, 108);
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}

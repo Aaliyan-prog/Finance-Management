@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #000000;
+  font-family: "Poppins";
+  text-align: center;
+  margin-top: 5px;
+}
+
+.sell-report {
+  width: 90%;
+  height: 70vh;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.report-output {
+  width: 73%;
+  height: 10vh;
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding: 20px;
+  padding-right: 0px;
+}
+
+.report-output button {
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background: #AD04FF;
+  background: -webkit-linear-gradient(90deg, rgba(173, 4, 255, 1) 36%, rgba(23, 198, 242, 1) 100%);
+  background: -moz-linear-gradient(90deg, rgba(173, 4, 255, 1) 36%, rgba(23, 198, 242, 1) 100%);
+  background: linear-gradient(90deg, rgba(173, 4, 255, 1) 36%, rgba(23, 198, 242, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#AD04FF", endColorstr="#17C6F2", GradientType=1);
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.sell-report .sell-report-table {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  overflow: scroll;
+}
+
+.sell-report .sell-report-table::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.sell-report .sell-report-table::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.sell-report .sell-report-table::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.sell-report .sell-report-table::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sell-report .sell-report-table .report-table {
+  width: 100%;
+  height: 100%;
+}
+
+.sell-report .sell-report-table .report-table table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.sell-report .sell-report-table .report-table table thead tr th,
+.sell-report .sell-report-table .report-table table tbody tr td {
+  width: 200px;
+  height: 30px;
+  color: #000;
+  text-align: center;
+  padding: 5px 10px;
+  border: 1px solid #000;
+}
+
+.sell-report .sell-report-table .report-table table tbody tr td {
+  font-size: 15px;
+}
+
+.sell-report .sell-report-table .report-table table thead tr th:nth-child(1) {
+  width: 60px;
+}

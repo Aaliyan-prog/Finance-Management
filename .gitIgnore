@@ -1,0 +1,34 @@
+# ============================
+# General
+# ============================
+*.log
+*.env
+.env.*
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# ============================
+# Node (Frontend)
+# ============================
+FullStack-Finance-Application/node_modules/
+FullStack-Finance-Application/public/
+
+# ============================
+# PHP (Backend)
+# ============================
+Finance-Application-backend/vendor/
+Finance-Application-backend/public/
+Finance-Application-backend/src/query/
+
+# ============================
+# Editors & IDEs
+# ============================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

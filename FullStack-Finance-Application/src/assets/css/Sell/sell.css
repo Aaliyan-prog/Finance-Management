@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.sell-content-section {
+  width: 90%;
+  min-height: auto;
+  background: #AD04FF;
+  background: -webkit-linear-gradient(90deg, rgba(173, 4, 255, 1) 36%, rgba(23, 198, 242, 1) 100%);
+  background: -moz-linear-gradient(90deg, rgba(173, 4, 255, 1) 36%, rgba(23, 198, 242, 1) 100%);
+  background: linear-gradient(90deg, rgba(173, 4, 255, 1) 36%, rgba(23, 198, 242, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#AD04FF", endColorstr="#17C6F2", GradientType=1);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.sell-content-section h1 {
+  font-size: 42px;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.sell-content-section .sell-main-content-section {
+  width: 90%;
+  min-height: 85%;
+  border-top: 1px solid #000000;
+  /* border-radius: 10px; */
+  margin: auto;
+  margin-top: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sell-content-section .sell-main-content-section .sell-inner-content-section {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sell-content-section .sell-main-content-section .sell-inner-content-section .inner-content {
+  width: 80%;
+  height: 70%;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  /* margin-bottom: 5px; */
+}
+
+.sell-content-section .sell-main-content-section .sell-inner-content-section .inner-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sell-content-section .sell-main-content-section .sell-inner-content-section .inner-content .inner-content-link-section {
+  width: 100%;
+  height: 15%;
+  position: absolute;
+  bottom: 0px;
+  background: rgb(242, 23, 108);
+  background: -moz-linear-gradient(90deg, rgba(242, 23, 108, 1) 0%, rgba(173, 4, 255, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(242, 23, 108, 1) 0%, rgba(173, 4, 255, 1) 100%);
+  background: linear-gradient(90deg, rgba(242, 23, 108, 1) 0%, rgba(173, 4, 255, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2176c", endColorstr="#ad04ff", GradientType=1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sell-content-section .sell-main-content-section .sell-inner-content-section .inner-content .inner-content-link-section .inner-content-link {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Poppins";
+  text-decoration: none;
+}

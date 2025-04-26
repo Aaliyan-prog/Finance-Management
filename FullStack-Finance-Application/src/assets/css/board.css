@@ -1,0 +1,89 @@
+.infoBoard{
+  width: 90%;
+  height: 50vh;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.infoBoard .infoboard-content{
+  width: 100%;
+  height: 100%;
+  background: #AD04FF;
+  background: -webkit-linear-gradient(90deg, rgba(173, 4, 255, 1) 36%, rgba(23, 198, 242, 1) 100%);
+  background: -moz-linear-gradient(90deg, rgba(173, 4, 255, 1) 36%, rgba(23, 198, 242, 1) 100%);
+  background: linear-gradient(90deg, rgba(173, 4, 255, 1) 36%, rgba(23, 198, 242, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#AD04FF", endColorstr="#17C6F2", GradientType=1);
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.infoBoard .infoboard-content .each-category-info{
+  width: 70%;
+  height: 100%;
+  padding: 20px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.infoBoard .infoboard-content .each-category-info .category-option{
+  width: 47.5%;
+  margin-top: 10px;
+  border: 2px dashed #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.infoBoard .infoboard-content .each-category-info .category-option p,
+.infoBoard .infoboard-content .each-category-info .category-option h1{
+  color: #fff;
+}
+
+.infoBoard .infoboard-content .each-category-info .category-option p{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.infoBoard .infoboard-content .each-category-info .category-option h1{
+  margin-top: 10px;
+  font-size: 45px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.infoBoard .infoboard-content .totalProfit-loss{
+  width: 30%;
+  height: 94%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px dashed #fff;
+  border-radius: 10px;
+}
+
+.infoBoard .infoboard-content .totalProfit-loss p {
+  padding-top: 20px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.infoBoard .infoboard-content .totalProfit-loss .totalProfitLoss{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoBoard .infoboard-content .totalProfit-loss .totalProfitLoss h1{
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
